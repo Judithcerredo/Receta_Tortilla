@@ -1,3 +1,9 @@
+* {
+box-sizing: border-box;
+background-color: #fadfb1;
+margin: 0;
+padding: 0;
+}
 .Contenedor {
     background-color: rgb(156, 212, 212);
     max-width: 1100px;
@@ -11,17 +17,35 @@ h1{
     gap: 15px;
     font-size: 1.8rem;
     font-weight: bold;
+    background: none;
   }
-
-  .icono li {
-    list-style-position: inside;
-    list-style-image:url(patata.png);}
-* {
-  box-sizing: border-box;
-  background-color: #fadfb1;
-  margin: 0;
-  padding: 0;
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: none;
 }
+
+li{
+    align-items: center;
+    background: none;
+}
+  .patata{
+      list-style-position: inside;
+      list-style-image:url(patata.png);}
+  .huevo{
+      list-style-position: inside;
+      list-style-image:url(huevo.png);}
+  .sal{
+      list-style-position: inside;
+      list-style-image:url(sal.png);}
+  .aceite{
+      list-style-position: inside;
+      list-style-image:url(AOVE.png);}
+  .cebolla{
+      list-style-position: inside;
+      list-style-image:url(cebolla.png);}
+
 body {
   font-family: sans-serif;
   text-align: center;
