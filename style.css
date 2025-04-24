@@ -1,1 +1,18 @@
-*{box-sizing: border-box;}
+.Contenedor {
+    background-color: rgb(156, 212, 212);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+h1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .icono li {
+    list-style-position: inside;
+    list-style-image:url(patata.png);}
